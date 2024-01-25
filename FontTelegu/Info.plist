@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NotoSansTelugu-Bold.ttf</string>
+		<string>NotoSansTelugu-Thin.ttf</string>
+		<string>NotoSansTelugu-Regular.ttf</string>
+		<string>NotoSansTelugu-Medium.ttf</string>
+		<string>NotoSansTelugu-Light.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+		<string>Roboto-Italic.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Medium.ttf</string>
+		<string>Roboto-Light.ttf</string>
+		<string>NotoSansDevanagari-Bold.ttf</string>
+		<string>NotoSansDevanagari-Thin.ttf</string>
+		<string>NotoSansDevanagari-Regular.ttf</string>
+		<string>NotoSansDevanagari-Medium.ttf</string>
+		<string>NotoSansDevanagari-Light.ttf</string>
+		<string>NotoSansKannada-Bold.ttf</string>
+		<string>NotoSansKannada-Thin.ttf</string>
+		<string>NotoSansKannada-Regular.ttf</string>
+		<string>NotoSansKannada-Medium.ttf</string>
+		<string>NotoSansKannada-Light.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key></key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  FontTelegu
+
+  Created by swarna.pandey on 24/01/24.
+  
+*/
+"newsletter" = "సమాచార పత్రిక(న్యూస్‌లెట్టర్)";
+"darkMode" = "డార్క్ మోడ్";
+"pushNotifications" = "పంపిన నోటిఫకేషన్లు";
+"clearAppCache" = "యాప్ సమాచారాన్ని క్లియర్ చేయండి";
+"titleTermsOfUse" = "ఉపయోగిత నిబంధనలు";
+"pageTitleFAQ" = "తరచుగా అడిగే ప్రశ్నలు";
+"pageTitleEditorialPolicy" = "సంపాదకీయ విధానం";
+"pageTitlePrivacyPolicy" = "గోప్యతా పాలసీ";
+"pageTitleContactUs" = "మమ్మల్ని సంప్రదించండి";
+"pageTitleLeadership" = "లీడర్‌షిప్";
+"pageTitleAboutUs" = "మా గురించి";
+"pageTitleTellAFriend" = "స్నేహితుడికి చెప్పండి";
+"pageTitleRateAndReview" = "పద్ధతి మరియు సమీక్ష";
+"pageTitleFeedback" = "సంప్రదించండి";

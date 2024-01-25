@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0B72C12B60E52000643A92 /* HostViewControllerSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0B72C02B60E52000643A92 /* HostViewControllerSupport.swift */; };
+		DD0B72C32B60E58F00643A92 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0B72C22B60E58F00643A92 /* Router.swift */; };
+		DD0B72C52B60E61300643A92 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0B72C42B60E61300643A92 /* Routing.swift */; };
+		DD0B72CA2B60EBA800643A92 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD0B72CC2B60EBA800643A92 /* Localizable.strings */; };
+		DD0B72D42B60ED2700643A92 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0B72D32B60ED2700643A92 /* Localizable.swift */; };
+		DD2BEE492B600C2400DE1800 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE482B600C2400DE1800 /* Roboto-Medium.ttf */; };
+		DD2BEE4B2B600C3F00DE1800 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE4A2B600C3F00DE1800 /* Roboto-Light.ttf */; };
+		DD2BEE4D2B600C7F00DE1800 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE4C2B600C7F00DE1800 /* Roboto-Italic.ttf */; };
+		DD2BEE4F2B600C9600DE1800 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE4E2B600C9600DE1800 /* Roboto-Bold.ttf */; };
+		DD2BEE512B600CA600DE1800 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE502B600CA600DE1800 /* Roboto-Regular.ttf */; };
+		DD2BEE572B600CCE00DE1800 /* NotoSansDevanagari-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE522B600CCE00DE1800 /* NotoSansDevanagari-Thin.ttf */; };
+		DD2BEE582B600CCE00DE1800 /* NotoSansDevanagari-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE532B600CCE00DE1800 /* NotoSansDevanagari-Light.ttf */; };
+		DD2BEE592B600CCE00DE1800 /* NotoSansDevanagari-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE542B600CCE00DE1800 /* NotoSansDevanagari-Medium.ttf */; };
+		DD2BEE5A2B600CCE00DE1800 /* NotoSansDevanagari-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE552B600CCE00DE1800 /* NotoSansDevanagari-Regular.ttf */; };
+		DD2BEE5B2B600CCE00DE1800 /* NotoSansDevanagari-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE562B600CCE00DE1800 /* NotoSansDevanagari-Bold.ttf */; };
+		DD2BEE612B600CF800DE1800 /* NotoSansKannada-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE5C2B600CF800DE1800 /* NotoSansKannada-Light.ttf */; };
+		DD2BEE622B600CF800DE1800 /* NotoSansKannada-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE5D2B600CF800DE1800 /* NotoSansKannada-Thin.ttf */; };
+		DD2BEE632B600CF800DE1800 /* NotoSansKannada-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE5E2B600CF800DE1800 /* NotoSansKannada-Bold.ttf */; };
+		DD2BEE642B600CF800DE1800 /* NotoSansKannada-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE5F2B600CF800DE1800 /* NotoSansKannada-Medium.ttf */; };
+		DD2BEE652B600CF800DE1800 /* NotoSansKannada-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2BEE602B600CF800DE1800 /* NotoSansKannada-Regular.ttf */; };
+		DD2BEE672B6010DD00DE1800 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BEE662B6010DD00DE1800 /* AppFont.swift */; };
+		DD2BEE692B60116100DE1800 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BEE682B60116100DE1800 /* AppLanguage.swift */; };
+		DD2BEE6B2B6013F500DE1800 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BEE6A2B6013F500DE1800 /* LanguageSelectionView.swift */; };
+		DD2BEE6D2B6015CC00DE1800 /* LanguageOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BEE6C2B6015CC00DE1800 /* LanguageOptionView.swift */; };
+		DD2BEE6F2B60193500DE1800 /* LanguageSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BEE6E2B60193500DE1800 /* LanguageSelectionViewModel.swift */; };
+		DD2BEE712B60494F00DE1800 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BEE702B60494F00DE1800 /* TableViewCell.swift */; };
+		DD2BEE732B604BE000DE1800 /* CellItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2BEE722B604BE000DE1800 /* CellItems.swift */; };
+		EABEA78D2B5E6A1C008069E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABEA78C2B5E6A1C008069E6 /* AppDelegate.swift */; };
+		EABEA78F2B5E6A1C008069E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABEA78E2B5E6A1C008069E6 /* SceneDelegate.swift */; };
+		EABEA7912B5E6A1C008069E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABEA7902B5E6A1C008069E6 /* ViewController.swift */; };
+		EABEA7942B5E6A1C008069E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABEA7922B5E6A1C008069E6 /* Main.storyboard */; };
+		EABEA7962B5E6A1E008069E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABEA7952B5E6A1E008069E6 /* Assets.xcassets */; };
+		EABEA7992B5E6A1E008069E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABEA7972B5E6A1E008069E6 /* LaunchScreen.storyboard */; };
+		EABEA7C22B5E6A39008069E6 /* NotoSansTelugu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EABEA7BD2B5E6A39008069E6 /* NotoSansTelugu-Bold.ttf */; };
+		EABEA7C32B5E6A39008069E6 /* NotoSansTelugu-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EABEA7BE2B5E6A39008069E6 /* NotoSansTelugu-Thin.ttf */; };
+		EABEA7C42B5E6A39008069E6 /* NotoSansTelugu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EABEA7BF2B5E6A39008069E6 /* NotoSansTelugu-Regular.ttf */; };
+		EABEA7C52B5E6A39008069E6 /* NotoSansTelugu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EABEA7C02B5E6A39008069E6 /* NotoSansTelugu-Medium.ttf */; };
+		EABEA7C62B5E6A39008069E6 /* NotoSansTelugu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EABEA7C12B5E6A39008069E6 /* NotoSansTelugu-Light.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EABEA7A02B5E6A1E008069E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EABEA7812B5E6A1C008069E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EABEA7882B5E6A1C008069E6;
+			remoteInfo = FontTelegu;
+		};
+		EABEA7AA2B5E6A1E008069E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EABEA7812B5E6A1C008069E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EABEA7882B5E6A1C008069E6;
+			remoteInfo = FontTelegu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD0B72C02B60E52000643A92 /* HostViewControllerSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostViewControllerSupport.swift; sourceTree = "<group>"; };
+		DD0B72C22B60E58F00643A92 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		DD0B72C42B60E61300643A92 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		DD0B72CB2B60EBA800643A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD0B72D22B60EC3B00643A92 /* te */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = te; path = te.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD0B72D32B60ED2700643A92 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		DD2BEE482B600C2400DE1800 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		DD2BEE4A2B600C3F00DE1800 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		DD2BEE4C2B600C7F00DE1800 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		DD2BEE4E2B600C9600DE1800 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		DD2BEE502B600CA600DE1800 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		DD2BEE522B600CCE00DE1800 /* NotoSansDevanagari-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansDevanagari-Thin.ttf"; sourceTree = "<group>"; };
+		DD2BEE532B600CCE00DE1800 /* NotoSansDevanagari-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansDevanagari-Light.ttf"; sourceTree = "<group>"; };
+		DD2BEE542B600CCE00DE1800 /* NotoSansDevanagari-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansDevanagari-Medium.ttf"; sourceTree = "<group>"; };
+		DD2BEE552B600CCE00DE1800 /* NotoSansDevanagari-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansDevanagari-Regular.ttf"; sourceTree = "<group>"; };
+		DD2BEE562B600CCE00DE1800 /* NotoSansDevanagari-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansDevanagari-Bold.ttf"; sourceTree = "<group>"; };
+		DD2BEE5C2B600CF800DE1800 /* NotoSansKannada-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKannada-Light.ttf"; sourceTree = "<group>"; };
+		DD2BEE5D2B600CF800DE1800 /* NotoSansKannada-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKannada-Thin.ttf"; sourceTree = "<group>"; };
+		DD2BEE5E2B600CF800DE1800 /* NotoSansKannada-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKannada-Bold.ttf"; sourceTree = "<group>"; };
+		DD2BEE5F2B600CF800DE1800 /* NotoSansKannada-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKannada-Medium.ttf"; sourceTree = "<group>"; };
+		DD2BEE602B600CF800DE1800 /* NotoSansKannada-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKannada-Regular.ttf"; sourceTree = "<group>"; };
+		DD2BEE662B6010DD00DE1800 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		DD2BEE682B60116100DE1800 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		DD2BEE6A2B6013F500DE1800 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
+		DD2BEE6C2B6015CC00DE1800 /* LanguageOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionView.swift; sourceTree = "<group>"; };
+		DD2BEE6E2B60193500DE1800 /* LanguageSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionViewModel.swift; sourceTree = "<group>"; };
+		DD2BEE702B60494F00DE1800 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DD2BEE722B604BE000DE1800 /* CellItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellItems.swift; sourceTree = "<group>"; };
+		DD4E85DB2B622DD300B0C20A /* kn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kn; path = kn.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD4E85DF2B622E3400B0C20A /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EABEA7892B5E6A1C008069E6 /* FontTelegu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontTelegu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABEA78C2B5E6A1C008069E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EABEA78E2B5E6A1C008069E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EABEA7902B5E6A1C008069E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EABEA7932B5E6A1C008069E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EABEA7952B5E6A1E008069E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EABEA7982B5E6A1E008069E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EABEA79A2B5E6A1E008069E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABEA79F2B5E6A1E008069E6 /* FontTeleguTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontTeleguTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABEA7A92B5E6A1E008069E6 /* FontTeleguUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontTeleguUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABEA7BD2B5E6A39008069E6 /* NotoSansTelugu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTelugu-Bold.ttf"; sourceTree = "<group>"; };
+		EABEA7BE2B5E6A39008069E6 /* NotoSansTelugu-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTelugu-Thin.ttf"; sourceTree = "<group>"; };
+		EABEA7BF2B5E6A39008069E6 /* NotoSansTelugu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTelugu-Regular.ttf"; sourceTree = "<group>"; };
+		EABEA7C02B5E6A39008069E6 /* NotoSansTelugu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTelugu-Medium.ttf"; sourceTree = "<group>"; };
+		EABEA7C12B5E6A39008069E6 /* NotoSansTelugu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTelugu-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EABEA7862B5E6A1C008069E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABEA79C2B5E6A1E008069E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABEA7A62B5E6A1E008069E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD2BEE442B600A5000DE1800 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DD2BEE472B600B6B00DE1800 /* English Font */,
+				DD2BEE462B600B5600DE1800 /* Hindi Font */,
+				DD2BEE452B600B4600DE1800 /* Kannada Font */,
+				EABEA7BC2B5E6A39008069E6 /* Telugu Font */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DD2BEE452B600B4600DE1800 /* Kannada Font */ = {
+			isa = PBXGroup;
+			children = (
+				DD2BEE5E2B600CF800DE1800 /* NotoSansKannada-Bold.ttf */,
+				DD2BEE5C2B600CF800DE1800 /* NotoSansKannada-Light.ttf */,
+				DD2BEE5F2B600CF800DE1800 /* NotoSansKannada-Medium.ttf */,
+				DD2BEE602B600CF800DE1800 /* NotoSansKannada-Regular.ttf */,
+				DD2BEE5D2B600CF800DE1800 /* NotoSansKannada-Thin.ttf */,
+			);
+			path = "Kannada Font";
+			sourceTree = "<group>";
+		};
+		DD2BEE462B600B5600DE1800 /* Hindi Font */ = {
+			isa = PBXGroup;
+			children = (
+				DD2BEE562B600CCE00DE1800 /* NotoSansDevanagari-Bold.ttf */,
+				DD2BEE532B600CCE00DE1800 /* NotoSansDevanagari-Light.ttf */,
+				DD2BEE542B600CCE00DE1800 /* NotoSansDevanagari-Medium.ttf */,
+				DD2BEE552B600CCE00DE1800 /* NotoSansDevanagari-Regular.ttf */,
+				DD2BEE522B600CCE00DE1800 /* NotoSansDevanagari-Thin.ttf */,
+			);
+			path = "Hindi Font";
+			sourceTree = "<group>";
+		};
+		DD2BEE472B600B6B00DE1800 /* English Font */ = {
+			isa = PBXGroup;
+			children = (
+				DD2BEE4C2B600C7F00DE1800 /* Roboto-Italic.ttf */,
+				DD2BEE4E2B600C9600DE1800 /* Roboto-Bold.ttf */,
+				DD2BEE4A2B600C3F00DE1800 /* Roboto-Light.ttf */,
+				DD2BEE502B600CA600DE1800 /* Roboto-Regular.ttf */,
+				DD2BEE482B600C2400DE1800 /* Roboto-Medium.ttf */,
+			);
+			path = "English Font";
+			sourceTree = "<group>";
+		};
+		EABEA7802B5E6A1C008069E6 = {
+			isa = PBXGroup;
+			children = (
+				EABEA78B2B5E6A1C008069E6 /* FontTelegu */,
+				EABEA78A2B5E6A1C008069E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EABEA78A2B5E6A1C008069E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EABEA7892B5E6A1C008069E6 /* FontTelegu.app */,
+				EABEA79F2B5E6A1E008069E6 /* FontTeleguTests.xctest */,
+				EABEA7A92B5E6A1E008069E6 /* FontTeleguUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EABEA78B2B5E6A1C008069E6 /* FontTelegu */ = {
+			isa = PBXGroup;
+			children = (
+				EABEA78C2B5E6A1C008069E6 /* AppDelegate.swift */,
+				EABEA78E2B5E6A1C008069E6 /* SceneDelegate.swift */,
+				EABEA7902B5E6A1C008069E6 /* ViewController.swift */,
+				EABEA7922B5E6A1C008069E6 /* Main.storyboard */,
+				EABEA7952B5E6A1E008069E6 /* Assets.xcassets */,
+				EABEA7972B5E6A1E008069E6 /* LaunchScreen.storyboard */,
+				EABEA79A2B5E6A1E008069E6 /* Info.plist */,
+				DD2BEE442B600A5000DE1800 /* Fonts */,
+				DD2BEE662B6010DD00DE1800 /* AppFont.swift */,
+				DD2BEE682B60116100DE1800 /* AppLanguage.swift */,
+				DD2BEE6A2B6013F500DE1800 /* LanguageSelectionView.swift */,
+				DD2BEE6C2B6015CC00DE1800 /* LanguageOptionView.swift */,
+				DD2BEE6E2B60193500DE1800 /* LanguageSelectionViewModel.swift */,
+				DD2BEE702B60494F00DE1800 /* TableViewCell.swift */,
+				DD2BEE722B604BE000DE1800 /* CellItems.swift */,
+				DD0B72C02B60E52000643A92 /* HostViewControllerSupport.swift */,
+				DD0B72C22B60E58F00643A92 /* Router.swift */,
+				DD0B72C42B60E61300643A92 /* Routing.swift */,
+				DD0B72CC2B60EBA800643A92 /* Localizable.strings */,
+				DD0B72D32B60ED2700643A92 /* Localizable.swift */,
+			);
+			path = FontTelegu;
+			sourceTree = "<group>";
+		};
+		EABEA7BC2B5E6A39008069E6 /* Telugu Font */ = {
+			isa = PBXGroup;
+			children = (
+				EABEA7BD2B5E6A39008069E6 /* NotoSansTelugu-Bold.ttf */,
+				EABEA7BE2B5E6A39008069E6 /* NotoSansTelugu-Thin.ttf */,
+				EABEA7BF2B5E6A39008069E6 /* NotoSansTelugu-Regular.ttf */,
+				EABEA7C02B5E6A39008069E6 /* NotoSansTelugu-Medium.ttf */,
+				EABEA7C12B5E6A39008069E6 /* NotoSansTelugu-Light.ttf */,
+			);
+			path = "Telugu Font";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EABEA7882B5E6A1C008069E6 /* FontTelegu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABEA7B32B5E6A1E008069E6 /* Build configuration list for PBXNativeTarget "FontTelegu" */;
+			buildPhases = (
+				EABEA7852B5E6A1C008069E6 /* Sources */,
+				EABEA7862B5E6A1C008069E6 /* Frameworks */,
+				EABEA7872B5E6A1C008069E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontTelegu;
+			productName = FontTelegu;
+			productReference = EABEA7892B5E6A1C008069E6 /* FontTelegu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EABEA79E2B5E6A1E008069E6 /* FontTeleguTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABEA7B62B5E6A1E008069E6 /* Build configuration list for PBXNativeTarget "FontTeleguTests" */;
+			buildPhases = (
+				EABEA79B2B5E6A1E008069E6 /* Sources */,
+				EABEA79C2B5E6A1E008069E6 /* Frameworks */,
+				EABEA79D2B5E6A1E008069E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EABEA7A12B5E6A1E008069E6 /* PBXTargetDependency */,
+			);
+			name = FontTeleguTests;
+			productName = FontTeleguTests;
+			productReference = EABEA79F2B5E6A1E008069E6 /* FontTeleguTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EABEA7A82B5E6A1E008069E6 /* FontTeleguUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABEA7B92B5E6A1E008069E6 /* Build configuration list for PBXNativeTarget "FontTeleguUITests" */;
+			buildPhases = (
+				EABEA7A52B5E6A1E008069E6 /* Sources */,
+				EABEA7A62B5E6A1E008069E6 /* Frameworks */,
+				EABEA7A72B5E6A1E008069E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EABEA7AB2B5E6A1E008069E6 /* PBXTargetDependency */,
+			);
+			name = FontTeleguUITests;
+			productName = FontTeleguUITests;
+			productReference = EABEA7A92B5E6A1E008069E6 /* FontTeleguUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EABEA7812B5E6A1C008069E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EABEA7882B5E6A1C008069E6 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					EABEA79E2B5E6A1E008069E6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = EABEA7882B5E6A1C008069E6;
+					};
+					EABEA7A82B5E6A1E008069E6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = EABEA7882B5E6A1C008069E6;
+					};
+				};
+			};
+			buildConfigurationList = EABEA7842B5E6A1C008069E6 /* Build configuration list for PBXProject "FontTelegu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				te,
+				kn,
+				hi,
+			);
+			mainGroup = EABEA7802B5E6A1C008069E6;
+			productRefGroup = EABEA78A2B5E6A1C008069E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EABEA7882B5E6A1C008069E6 /* FontTelegu */,
+				EABEA79E2B5E6A1E008069E6 /* FontTeleguTests */,
+				EABEA7A82B5E6A1E008069E6 /* FontTeleguUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EABEA7872B5E6A1C008069E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2BEE632B600CF800DE1800 /* NotoSansKannada-Bold.ttf in Resources */,
+				EABEA7C42B5E6A39008069E6 /* NotoSansTelugu-Regular.ttf in Resources */,
+				EABEA7C52B5E6A39008069E6 /* NotoSansTelugu-Medium.ttf in Resources */,
+				DD2BEE642B600CF800DE1800 /* NotoSansKannada-Medium.ttf in Resources */,
+				DD2BEE582B600CCE00DE1800 /* NotoSansDevanagari-Light.ttf in Resources */,
+				DD2BEE622B600CF800DE1800 /* NotoSansKannada-Thin.ttf in Resources */,
+				DD2BEE4F2B600C9600DE1800 /* Roboto-Bold.ttf in Resources */,
+				DD2BEE5A2B600CCE00DE1800 /* NotoSansDevanagari-Regular.ttf in Resources */,
+				DD2BEE4B2B600C3F00DE1800 /* Roboto-Light.ttf in Resources */,
+				DD2BEE572B600CCE00DE1800 /* NotoSansDevanagari-Thin.ttf in Resources */,
+				EABEA7C32B5E6A39008069E6 /* NotoSansTelugu-Thin.ttf in Resources */,
+				EABEA7C22B5E6A39008069E6 /* NotoSansTelugu-Bold.ttf in Resources */,
+				DD2BEE612B600CF800DE1800 /* NotoSansKannada-Light.ttf in Resources */,
+				DD0B72CA2B60EBA800643A92 /* Localizable.strings in Resources */,
+				EABEA7C62B5E6A39008069E6 /* NotoSansTelugu-Light.ttf in Resources */,
+				DD2BEE652B600CF800DE1800 /* NotoSansKannada-Regular.ttf in Resources */,
+				EABEA7992B5E6A1E008069E6 /* LaunchScreen.storyboard in Resources */,
+				EABEA7962B5E6A1E008069E6 /* Assets.xcassets in Resources */,
+				EABEA7942B5E6A1C008069E6 /* Main.storyboard in Resources */,
+				DD2BEE512B600CA600DE1800 /* Roboto-Regular.ttf in Resources */,
+				DD2BEE4D2B600C7F00DE1800 /* Roboto-Italic.ttf in Resources */,
+				DD2BEE592B600CCE00DE1800 /* NotoSansDevanagari-Medium.ttf in Resources */,
+				DD2BEE5B2B600CCE00DE1800 /* NotoSansDevanagari-Bold.ttf in Resources */,
+				DD2BEE492B600C2400DE1800 /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABEA79D2B5E6A1E008069E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABEA7A72B5E6A1E008069E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EABEA7852B5E6A1C008069E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2BEE672B6010DD00DE1800 /* AppFont.swift in Sources */,
+				EABEA7912B5E6A1C008069E6 /* ViewController.swift in Sources */,
+				DD0B72C12B60E52000643A92 /* HostViewControllerSupport.swift in Sources */,
+				DD2BEE6F2B60193500DE1800 /* LanguageSelectionViewModel.swift in Sources */,
+				DD0B72C52B60E61300643A92 /* Routing.swift in Sources */,
+				DD2BEE712B60494F00DE1800 /* TableViewCell.swift in Sources */,
+				DD2BEE692B60116100DE1800 /* AppLanguage.swift in Sources */,
+				DD2BEE6D2B6015CC00DE1800 /* LanguageOptionView.swift in Sources */,
+				DD2BEE6B2B6013F500DE1800 /* LanguageSelectionView.swift in Sources */,
+				EABEA78D2B5E6A1C008069E6 /* AppDelegate.swift in Sources */,
+				DD0B72C32B60E58F00643A92 /* Router.swift in Sources */,
+				DD2BEE732B604BE000DE1800 /* CellItems.swift in Sources */,
+				DD0B72D42B60ED2700643A92 /* Localizable.swift in Sources */,
+				EABEA78F2B5E6A1C008069E6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABEA79B2B5E6A1E008069E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABEA7A52B5E6A1E008069E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EABEA7A12B5E6A1E008069E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EABEA7882B5E6A1C008069E6 /* FontTelegu */;
+			targetProxy = EABEA7A02B5E6A1E008069E6 /* PBXContainerItemProxy */;
+		};
+		EABEA7AB2B5E6A1E008069E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EABEA7882B5E6A1C008069E6 /* FontTelegu */;
+			targetProxy = EABEA7AA2B5E6A1E008069E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD0B72CC2B60EBA800643A92 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0B72CB2B60EBA800643A92 /* en */,
+				DD0B72D22B60EC3B00643A92 /* te */,
+				DD4E85DB2B622DD300B0C20A /* kn */,
+				DD4E85DF2B622E3400B0C20A /* hi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		EABEA7922B5E6A1C008069E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABEA7932B5E6A1C008069E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EABEA7972B5E6A1E008069E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABEA7982B5E6A1E008069E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EABEA7B12B5E6A1E008069E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EABEA7B22B5E6A1E008069E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EABEA7B42B5E6A1E008069E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FontTelegu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FontTeleg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EABEA7B52B5E6A1E008069E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FontTelegu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FontTeleg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EABEA7B72B5E6A1E008069E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = none;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FontTeleguTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontTelegu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FontTelegu";
+			};
+			name = Debug;
+		};
+		EABEA7B82B5E6A1E008069E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = none;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FontTeleguTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontTelegu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FontTelegu";
+			};
+			name = Release;
+		};
+		EABEA7BA2B5E6A1E008069E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = none;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FontTeleguUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FontTelegu;
+			};
+			name = Debug;
+		};
+		EABEA7BB2B5E6A1E008069E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = none;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FontTeleguUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FontTelegu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EABEA7842B5E6A1C008069E6 /* Build configuration list for PBXProject "FontTelegu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABEA7B12B5E6A1E008069E6 /* Debug */,
+				EABEA7B22B5E6A1E008069E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABEA7B32B5E6A1E008069E6 /* Build configuration list for PBXNativeTarget "FontTelegu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABEA7B42B5E6A1E008069E6 /* Debug */,
+				EABEA7B52B5E6A1E008069E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABEA7B62B5E6A1E008069E6 /* Build configuration list for PBXNativeTarget "FontTeleguTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABEA7B72B5E6A1E008069E6 /* Debug */,
+				EABEA7B82B5E6A1E008069E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABEA7B92B5E6A1E008069E6 /* Build configuration list for PBXNativeTarget "FontTeleguUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABEA7BA2B5E6A1E008069E6 /* Debug */,
+				EABEA7BB2B5E6A1E008069E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EABEA7812B5E6A1C008069E6 /* Project object */;
+}

@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  FontTelegu
+
+  Created by swarna.pandey on 24/01/24.
+  
+*/
+"newsletter" = "ಸುದ್ದಿ ಪತ್ರಿಕೆ";
+"darkMode" = "ಡಾರ್ಕ್ ಮೋಡ್";
+"pushNotifications" = "ಪುಶ್ ನೋಟಿಫಿಕೇಶನ್";
+"clearAppCache" = "ಅಪ್ಲಿಕೇಶನ್ ಕ್ಯಾಶ್ ಮೆಮೊರಿ ಅಳಿಸಿ";
+"titleTermsOfUse" = "ಬಳಕೆಯ ನಿಯಮಗಳು";
+"pageTitleFAQ" = "FAQ ಅಥವಾ ಹೆಚ್ಚು ಕೇಳಲ್ಪಟ್ಟ ಪ್ರಶ್ನೆಗಳು";
+"pageTitleEditorialPolicy" = "ಸಂಪಾದಕೀಯ ನಿಯಮಗಳು";
+"pageTitlePrivacyPolicy" = "ಗೌಪ್ಯತಾ ನಿಯಮಗಳು";
+"pageTitleContactUs" = "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ";
+"pageTitleLeadership" = "ಲೀಡರ್‌ಶಿಪ್ ";
+"pageTitleAboutUs" = "ನಮ್ಮ ಬಗ್ಗೆ ";
+"pageTitleTellAFriend" = "ಸ್ನೇಹಿತರಿಗೆ ನಮ್ಮ ಬಗ್ಗೆ ತಿಳಿಸಿ";
+"pageTitleRateAndReview" = "ದರ ಮತ್ತು ವಿಮರ್ಶೆ";
+"pageTitleFeedback" = "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ";

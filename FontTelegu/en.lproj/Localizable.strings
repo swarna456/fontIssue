@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  FontTelegu
+
+  Created by swarna.pandey on 24/01/24.
+  
+*/
+"newsletter" = "Newsletter";
+"darkMode" = "Dark Mode";
+"pushNotifications" = "Push Notifications";
+"clearAppCache" = "Clear App Cache";
+"titleTermsOfUse" = "Terms of Use";
+"pageTitleFAQ" = "Frequently Asked Questions";
+"pageTitleEditorialPolicy" = "Editorial Policy";
+"pageTitlePrivacyPolicy" = "Privacy Policy";
+"pageTitleContactUs" = "Contact Us";
+"pageTitleLeadership" = "Leadership";
+"pageTitleAboutUs" = "About Us";
+"pageTitleTellAFriend" = "Tell A Friend";
+"pageTitleRateAndReview" = "Rate And Review";
+"pageTitleFeedback" = "Feedback/Contact Us";

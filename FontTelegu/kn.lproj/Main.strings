@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; configuration.title = "Apply"; ObjectID = "2OI-0V-TrT"; */
+"2OI-0V-TrT.configuration.title" = "Apply";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2OI-0V-TrT"; */
+"2OI-0V-TrT.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7e4-RF-rae"; */
+"7e4-RF-rae.text" = "Label";
+
+/* Class = "UILabel"; text = "Language Selection"; ObjectID = "V4I-SD-hzS"; */
+"V4I-SD-hzS.text" = "Language Selection";

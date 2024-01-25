@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  FontTelegu
+
+  Created by swarna.pandey on 24/01/24.
+  
+*/
+"newsletter" = "न्यूज़लेटर";
+"darkMode" = "डार्क मोड";
+"pushNotifications" = "पुश नोटिफिकेशन";
+"clearAppCache" = "अपना कैशे साफ करें";
+"titleTermsOfUse" = "उपयोग की शर्तों के बारे में जानें";
+"pageTitleFAQ" = "अक्सर पूछे जाने वाले सवाल";
+"pageTitleEditorialPolicy" = "संपादकीय नीति";
+"pageTitlePrivacyPolicy" = "गोपनीयता नीति";
+"pageTitleContactUs" = "हमसे संपर्क करें";
+"pageTitleLeadership" = "नेतृत्व";
+"pageTitleAboutUs" = "हमारे बारे में जानें";
+"pageTitleTellAFriend" = "अपने साथियों को बताएं";
+"pageTitleRateAndReview" = "रेट और रिव्यू";
+"pageTitleFeedback" = "हमसे संपर्क करें";
